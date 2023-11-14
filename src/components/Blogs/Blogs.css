@@ -1,0 +1,16 @@
+.blogs{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    min-height: 80px;
+    color: white;
+    margin-top: 20px;
+}
+.link1{
+    color: white;
+    text-decoration: none;
+    transition: color 1s ;
+}
+.link1:hover{
+    color: rgb(230, 164, 43);
+    cursor: pointer;
+}
