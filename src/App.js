@@ -16,7 +16,7 @@ function App() {
     setId(id + 1)
     let newBlog = [...blogData, {id: id,title: title, desc: desc}]
     setBlogData(newBlog)
-    navigate('/blogs')
+    navigate('/')
   }
   return (
     <div className="App">
