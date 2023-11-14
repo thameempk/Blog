@@ -23,7 +23,7 @@ function App() {
       <Header />
       <MyContex.Provider value={blogData}>
       <Routes >
-      <Route path='/blogs' exat element={<Blogs />} /> 
+      <Route path='/blogs' exact element={<Blogs />} /> 
       <Route path='/createblog'  element={<CreateBlogs handleChange={handleChange}/>} />
         <Route path=':id' element={<Blog blogData={blogData}/>} />       
       </Routes>
