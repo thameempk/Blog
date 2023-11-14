@@ -13,7 +13,7 @@ function Blogs() {
       <hr />
         {fetch.map((datas,index)=>(
             <div  key={index}>
-                <Link className='link1' to={`/${datas.id}`}><h3 style={{fontSize:"30px"}}>{datas.title}</h3></Link>
+                <Link className='link1' to={`/blogs/${datas.id}`}><h3 style={{fontSize:"30px"}}>{datas.title}</h3></Link>
             <p style={{fontSize:"20px"}}>{datas.desc}</p>
             <hr />
             </div>
